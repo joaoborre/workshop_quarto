@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: docs 
+website:
+  title: "workshop-quarto"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: sobre
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+
+editor: visual
+

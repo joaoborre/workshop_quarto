@@ -1,0 +1,4 @@
+system("git --version")
+system('"C:/Program Files/Git/bin/git.exe" --version')
+Sys.setenv(PATH = paste(Sys.getenv("PATH"), "C:/Program Files/Git/bin", sep=";"))
+system("git --version")
